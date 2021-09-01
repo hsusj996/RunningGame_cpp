@@ -19,12 +19,21 @@
     <Filter Include="소스 파일\MapManager">
       <UniqueIdentifier>{a2af6dd9-d971-4270-8afd-5c8355f85f62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stage">
+      <UniqueIdentifier>{b2ad64e3-64d3-477f-a354-949d82f6aa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\File">
+      <UniqueIdentifier>{3ee0508f-a7c1-45a0-9b41-317077389eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{ff626702-62d4-4945-8a2d-04b71ada5900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObjectManager">
+      <UniqueIdentifier>{2d6bf675-d167-49ab-ae7d-4a8b86d9d449}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Running.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Stage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Core.cpp">
@@ -33,11 +42,20 @@
     <ClCompile Include="MapManager.cpp">
       <Filter>소스 파일\MapManager</Filter>
     </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileStream.cpp">
+      <Filter>소스 파일\Core\File</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>소스 파일\ObjectManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Stage.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="value.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -46,6 +64,18 @@
     </ClInclude>
     <ClInclude Include="MapManager.h">
       <Filter>소스 파일\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileStream.h">
+      <Filter>소스 파일\Core\File</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>소스 파일\ObjectManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,2 @@
+C:\github\RunningGame_cpp\RunningGame_cpp\Debug\RunningGame_cpp.exe
+C:\github\RunningGame_cpp\RunningGame_cpp\Debug\RunningGame_cpp.pdb

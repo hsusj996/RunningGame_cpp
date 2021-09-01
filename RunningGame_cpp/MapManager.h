@@ -24,8 +24,11 @@ public:
 
 private:
 	CStage*		m_pStage[STAGE_MAX_COUNT];
-
+	int m_iSelectStage;
 public:
 	bool Init();
+	void Run();
+	void Render(int iStageSelect);
+	int SelectStage();
 };
 

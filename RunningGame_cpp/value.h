@@ -15,3 +15,15 @@ using namespace std;
 
 // Stage Max Count
 #define	STAGE_MAX_COUNT	3
+
+int InputInt() {
+	int iInput;
+	cin >> iInput;
+
+	if (cin.fail()) {
+		cin.clear();
+		cin.ignore(1024, '\n');
+		return INT_MAX;
+	}
+	return iInput;
+}

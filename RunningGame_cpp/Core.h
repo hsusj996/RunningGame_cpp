@@ -11,6 +11,7 @@ private:
 
 private:
 	static CCore*	m_pInst;
+	int m_iStageSelect;
 
 public:
 	static CCore* GetInst();
